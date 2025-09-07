@@ -711,6 +711,10 @@ display: none;
 <div class="region-tab-icon"><i class="fas fa-umbrella-beach"></i></div>
 <div class="region-tab-title">Bali & NTB</div>
 </div>
+<div class="region-tab" onclick="selectRegion('kalimantan')">
+<div class="region-tab-icon"><i class="fas fa-leaf"></i></div>
+<div class="region-tab-title">Kalimantan</div>
+</div>
 </div>
 </div>
 </div>
@@ -1197,6 +1201,36 @@ const locationData = {
             image: 'https://picsum.photos/seed/batam-pusat/400/200',
             badge: 'Terpopuler',
             features: ['popular']
+        }
+    ],
+    kalimantan: [
+        {
+            id: 'pontianak',
+            name: 'Kantor Imigrasi Kelas I TPI Pontianak',
+            address: 'Jl. Letjen Sutoyo No.122, Pontianak',
+            phone: '(0561) 732305',
+            hours: 'Senin-Jumat: 08.00-16.00',
+            image: 'https://picsum.photos/seed/pontianak/400/200',
+            badge: 'Terpopuler',
+            features: ['popular']
+        },
+        {
+            id: 'samarinda',
+            name: 'Kantor Imigrasi Kelas I TPI Samarinda',
+            address: 'Jl. Ir. H. Juanda No.8, Samarinda',
+            phone: '(0541) 741510',
+            hours: 'Senin-Jumat: 08.00-16.00',
+            image: 'https://picsum.photos/seed/samarinda/400/200',
+            features: []
+        },
+        {
+            id: 'banjarmasin',
+            name: 'Kantor Imigrasi Kelas I TPI Banjarmasin',
+            address: 'Jl. A. Yani Km. 22, Landasan Ulin, Banjarbaru',
+            phone: '(0511) 4772388',
+            hours: 'Senin-Jumat: 08.00-16.00',
+            image: 'https://picsum.photos/seed/banjarmasin/400/200',
+            features: []
         }
     ],
     bali_ntb: [
